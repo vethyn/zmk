@@ -21,6 +21,7 @@
 &mt {
   flavor = "tap-preferred";
   tapping_term_ms = <300>;
+  retro-tap;
 };
 
 / { 
