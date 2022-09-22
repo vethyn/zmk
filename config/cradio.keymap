@@ -78,8 +78,8 @@
         num_layer {
             bindings = <
                 &trans     &trans &trans &trans &trans                &trans    &trans   &trans &trans    &trans
-                &kp SQT    &trans &trans &trans &kp KP_EQUAL          &trans    &trans   &trans &trans    &trans
-                &kp GRAVE  &trans &trans &trans &kp BSLH              &trans    &trans   &trans &trans    &trans
+                &kp SQT    &trans &trans &trans &kp EQUAL          &trans    &trans   &trans &trans    &trans
+                &kp GRAVE  &trans &trans &kp QMARK &kp BSLH              &trans    &trans   &trans &trans    &trans
                                          &trans &trans                &trans    &trans
                 >;
        };
