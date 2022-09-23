@@ -71,7 +71,7 @@
                 &trans &trans &trans &bootloader &reset               &trans      &kp LBRC   &kp RBRC &kp LPAR    &kp RPAR
                 &trans &trans &trans &trans      &trans               &kp LEFT    &kp DOWN   &kp UP   &kp RIGHT   &trans
                 &trans &trans &trans &trans      &trans               &trans      &kp LBKT   &kp RBKT &trans      &trans
-                                           &trans      &trans               &trans      &trans
+                                           &trans      &trans               &trans      &kp DEL
                 >;
         };
 
