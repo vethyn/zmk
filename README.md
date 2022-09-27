@@ -10,6 +10,8 @@
 ## Navigation layer
 ![Nav layer](/pics/nav.png "Navigation Layer")
 
+## Num layer
+
 ## Symbol layer
 
-## Num layer
+## Misc layer
