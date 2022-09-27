@@ -15,3 +15,9 @@
 ## Symbol layer
 
 ## Misc layer
+
+## Combos
+![Combos](/pics/combos.png "Combos")
+
+## Homerow mod
+![Homerow mod](/pics/homerow.png "Homerow mods")
