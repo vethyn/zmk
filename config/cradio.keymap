@@ -62,7 +62,7 @@
                   &kp Q      &kp W       &kp F        &kp P        &kp G                          &kp J                     &kp L       &kp U           &kp Y        &kp SCLN
                   &mt LGUI A &mt LALT R  &mt LSHIFT S &mt LCTRL T  &mt LG(LA(LS(LCTRL))) D        &mt RG(RA(RS(RCTRL))) H   &mt RCTRL N &mt RSHIFT E    &mt RALT I   &mt RGUI O
                   &kp Z      &kp X       &kp C        &kp V        &kp B                          &kp K                     &kp M       &kp CMMA        &kp DOT      &kp FSLH
-                                                      &lt FUN TAB  &lt NAV SPC                    &lt SYM RET               &lt NUM BSPC
+                                                      &lt SYM TAB  &lt NAV SPC                    &lt FUN RET               &lt NUM BSPC
                 >;
         };
 
@@ -75,7 +75,7 @@
                 >;
         };
 
-        num_layer {
+        fun_layer {
             bindings = <
                 &trans     &trans &trans &trans    &trans                &trans    &trans   &trans &trans    &trans
                 &kp SQT    &trans &trans &trans    &kp EQUAL             &trans    &trans   &trans &trans    &trans
@@ -93,7 +93,7 @@
                 >;
         };
 
-       fun_layer {
+       num_layer {
             bindings = <
                 &bt BT_CLR   &bt BT_SEL 2 &trans &trans &trans        &trans &kp N7    &kp N8    &kp N9    &kp COLON
                 &bt BT_SEL 0 &trans       &trans &trans &trans        &trans &kp N4    &kp N5    &kp N6    &trans
