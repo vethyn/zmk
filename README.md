@@ -11,8 +11,10 @@
 ![Nav layer](/pics/nav.png "Navigation layer")
 
 ## Num layer
+![Num layer](/pics/num.png "Numpad layer")
 
 ## Symbol layer
+![Sym layer](/pics/sym.png" "Symbol layer")
 
 ## Misc layer
 ![Misc layer](/pics/misc.png "Misc layer")
