@@ -5,16 +5,17 @@
 # Layers
 
 ## Base layer
-![Base layer](/pics/base.png "Base Layer")
+![Base layer](/pics/base.png "Base layer")
 
 ## Navigation layer
-![Nav layer](/pics/nav.png "Navigation Layer")
+![Nav layer](/pics/nav.png "Navigation layer")
 
 ## Num layer
 
 ## Symbol layer
 
 ## Misc layer
+![Misc layer](/pics/misc.png "Misc layer")
 
 ## Combos
 ![Combos](/pics/combos.png "Combos")
