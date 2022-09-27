@@ -1,1 +1,11 @@
-zmk config fuer modified ferries keyboard
+# ZMK Config
+- for modified ferries ( pcb by https://github.com/benvallack/Ferris-Sweep-Tweaked )
+- config inpired and fitted to my needs by ( https://git.peppe.rs/config/zmk/tree/ )
+
+# Layers
+
+## Base layer
+![Base layer](/pics/base.png "Base Layer")
+
+## Navigation Layer
+![Nav layer](/pics/nav.png "Navigation Layer")
