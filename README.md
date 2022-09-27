@@ -7,5 +7,9 @@
 ## Base layer
 ![Base layer](/pics/base.png "Base Layer")
 
-## Navigation Layer
+## Navigation layer
 ![Nav layer](/pics/nav.png "Navigation Layer")
+
+## Symbol layer
+
+## Num layer
