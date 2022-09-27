@@ -14,7 +14,7 @@
 ![Num layer](/pics/num.png "Numpad layer")
 
 ## Symbol layer
-![Sym layer](/pics/sym.png" "Symbol layer")
+![Sym layer](/pics/sym.png "Symbol layer")
 
 ## Misc layer
 ![Misc layer](/pics/misc.png "Misc layer")
