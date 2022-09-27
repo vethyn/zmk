@@ -64,7 +64,7 @@
                   &kp Q      &kp W       &kp F        &kp P        &kp G                          &kp J                     &kp L       &kp U           &kp Y        &kp SCLN
                   &mt LGUI A &mt LALT R  &mt LSHIFT S &mt LCTRL T  &mt LG(LA(LS(LCTRL))) D        &mt RG(RA(RS(RCTRL))) H   &mt RCTRL N &mt RSHIFT E    &mt RALT I   &mt RGUI O
                   &kp Z      &kp X       &kp C        &kp V        &kp B                          &kp K                     &kp M       &kp CMMA        &kp DOT      &kp FSLH
-                                                      &lt NUM TAB  &lt NAV SPC                    &lt FUN RET               &lt SYM BSPC
+                                                      &lt NUM TAB  &lt NAV SPC                    &lt SYM RET               &lt FUN BSPC
                 >;
         };
 
@@ -79,16 +79,16 @@
 
         fun_layer {
             bindings = <
-                &trans     &trans &trans &trans    &trans                &reset    &bootloader   &trans &trans    &trans
-                &kp SQT    &trans &trans &trans    &kp EQUAL             &trans    &trans        &trans &trans    &trans
-                &kp GRAVE  &trans &trans &kp QMARK &trans                &trans    &trans        &trans &trans    &trans
+                &trans     &trans &trans &trans    &trans                &trans    &trans   &trans &trans    &trans
+                &kp SQT    &trans &trans &trans    &kp EQUAL             &trans    &trans   &trans &trans    &trans
+                &kp GRAVE  &trans &trans &kp QMARK &trans                &trans    &trans   &trans &trans    &trans
                                          &trans    &trans                &trans    &trans
                 >;
        };
 
        sym_layer {
             bindings = <
-                &trans    &trans    &kp STAR  &kp AMPS  &kp MINUS             &trans    &trans   &trans &trans    &trans
+                &trans    &trans    &kp STAR  &kp AMPS  &kp MINUS             &reset    &bootloader   &trans &trans    &trans
                 &kp DQT   &kp CARET &kp PRCNT &kp DLLR  &kp KP_PLUS           &trans    &trans        &trans &trans    &trans
                 &kp TILDE &kp HASH  &kp AT    &kp EXCL  &kp PIPE              &trans    &trans        &trans &trans    &trans
                                               &trans    &trans                &trans    &trans
