@@ -71,7 +71,7 @@
                 &trans &trans &trans &bootloader &reset               &kp LBRC    &kp RBRC   &kp LPAR   &kp RPAR    &kp COLON
                 &trans &trans &trans &trans      &trans               &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT   &trans   
                 &trans &trans &trans &trans      &trans               &kp LBKT    &kp RBKT   &kp LT     &kp GT      &kp BSLH
-                                     &trans      &trans               &trans      &kp DEL
+                                     &trans      &trans               &kp BSPC    &kp DEL
                 >;
         };
 
@@ -86,10 +86,10 @@
 
        sym_layer {
             bindings = <
-                &kp LS(Q) &kp LS(Z) &kp STAR  &kp AMPS  &kp MINUS             &reset    &bootloader   &trans &trans    &trans
+                &trans    &trans    &kp STAR  &kp AMPS  &kp MINUS             &reset    &bootloader   &trans &trans    &trans
                 &kp DQT   &kp CARET &kp PRCNT &kp DLLR  &kp KP_PLUS           &trans    &trans        &trans &trans    &trans
                 &kp TILDE &kp HASH  &kp AT    &kp EXCL  &kp PIPE              &trans    &trans        &trans &trans    &trans
-                                              &kp RPAR  &kp LS(J)             &trans    &trans
+                                              &trans    &trans                &trans    &trans
                 >;
         };
 
