@@ -1,6 +1,6 @@
 # ZMK Config
 - for modified ferries ( pcb by https://github.com/benvallack/Ferris-Sweep-Tweaked )
-- config inpired nerdypepper and fitted to my needs by ( https://git.peppe.rs/config/zmk/tree/ )
+- config inpired by nerdypepper and fitted to my needs ( https://git.peppe.rs/config/zmk/tree/ )
 
 # Layers
 
