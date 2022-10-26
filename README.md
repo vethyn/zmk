@@ -4,14 +4,14 @@
 
 # Layers
 
-## Base layer
+## Base layer (0)
 ![Base layer](/pics/base.png "Base layer")
 
-## Navigation layer
+## Navigation layer (1)
 ![Nav layer](/pics/nav.png "Navigation layer")
 
-## Symbol layer
+## Symbol layer (2)
 ![Sym layer](/pics/sym.png "Symbol layer")
 
-## Num layer
+## Num layer (3)
 ![Num layer](/pics/num.png "Numpad layer")
