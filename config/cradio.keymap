@@ -84,7 +84,7 @@
  &trans  &trans  &trans  &bootloader  &reset    &kp LBRC       &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
  &trans  &trans  &trans       &trans  &trans       &kp A       &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
  &trans  &trans  &trans       &trans  &trans    &kp LBKT       &kp RBKT    &kp LT    &kp GT   &kp BSLH
-                               &to 3   &to 0  &kp DELETE  &kp BACKSPACE
+                               &to 3   &to 0  &kp RETURN  &kp DELETE
             >;
         };
 
