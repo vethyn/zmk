@@ -34,7 +34,7 @@
 
         combo_esc {
             timeout-ms = <100>;
-            key-positions = <10 19>;
+            key-positions = <13 16>;
             bindings = <&kp ESC>;
         };
 
@@ -72,19 +72,19 @@
 
         default_layer {
             bindings = <
-      &kp Q       &kp W         &kp F        &kp P                    &kp G                    &kp J        &kp L         &kp U       &kp Y  &kp SEMICOLON
- &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &mt LG(LA(LS(LCTRL))) D  &mt RG(RA(RS(RCTRL))) H  &mt RCTRL N  &mt RSHIFT E  &mt RALT I     &mt RGUI O
-      &kp Z       &kp X         &kp C        &kp V                    &kp B                    &kp K        &kp M     &kp COMMA     &kp DOT       &kp FSLH
-                                           &kp TAB                &kp SPACE               &kp RETURN      &kp DEL
+      &kp Q       &kp W         &kp F        &kp P                    &kp G                    &kp J          &kp L         &kp U       &kp Y  &kp SEMICOLON
+ &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &mt LG(LA(LS(LCTRL))) D  &mt RG(RA(RS(RCTRL))) H    &mt RCTRL N  &mt RSHIFT E  &mt RALT I     &mt RGUI O
+      &kp Z       &kp X         &kp C        &kp V                    &kp B                    &kp K          &kp M     &kp COMMA     &kp DOT       &kp FSLH
+                                           &kp TAB                &kp SPACE               &kp RETURN  &kp BACKSPACE
             >;
         };
 
         nav_layer {
             bindings = <
- &trans  &trans  &trans  &bootloader  &reset  &kp LBRC  &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
- &trans  &trans  &trans       &trans  &trans     &kp A  &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
- &trans  &trans  &trans       &trans  &trans  &kp LBKT  &kp RBKT    &kp LT    &kp GT   &kp BSLH
-                               &to 2   &to 0  &kp BSPC   &kp DEL
+ &trans  &trans  &trans  &bootloader  &reset    &kp LBRC       &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
+ &trans  &trans  &trans       &trans  &trans       &kp A       &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
+ &trans  &trans  &trans       &trans  &trans    &kp LBKT       &kp RBKT    &kp LT    &kp GT   &kp BSLH
+                               &to 3   &to 0  &kp DELETE  &kp BACKSPACE
             >;
         };
 
