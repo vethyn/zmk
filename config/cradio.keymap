@@ -72,37 +72,28 @@
 
         default_layer {
             bindings = <
-      &kp Q       &kp W         &kp F        &kp P                    &kp G                    &kp J        &kp L         &kp U       &kp Y    &kp SCLN
- &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &mt LG(LA(LS(LCTRL))) D  &mt RG(RA(RS(RCTRL))) H  &mt RCTRL N  &mt RSHIFT E  &mt RALT I  &mt RGUI O
-      &kp Z       &kp X         &kp C        &kp V                    &kp B                    &kp K        &kp M      &kp CMMA     &kp DOT    &kp FSLH
+      &kp Q       &kp W         &kp F        &kp P                    &kp G                    &kp J        &kp L         &kp U       &kp Y  &kp SEMICOLON
+ &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &mt LG(LA(LS(LCTRL))) D  &mt RG(RA(RS(RCTRL))) H  &mt RCTRL N  &mt RSHIFT E  &mt RALT I     &mt RGUI O
+      &kp Z       &kp X         &kp C        &kp V                    &kp B                    &kp K        &kp M     &kp COMMA     &kp DOT       &kp FSLH
                                            &kp TAB                &kp SPACE               &kp RETURN      &kp DEL
             >;
         };
 
         nav_layer {
             bindings = <
- &trans  &trans  &trans  &bootloader  &reset  &kp LBRC  &kp RBRC  &kp LPAR   &kp RPAR  &kp COLON
- &trans  &trans  &trans       &trans  &trans  &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT     &trans
- &trans  &trans  &trans       &trans  &trans  &kp LBKT  &kp RBKT    &kp LT     &kp GT   &kp BSLH
-                               &to 3   &to 0  &kp BSPC   &kp DEL
-            >;
-        };
-
-        fun_layer {
-            bindings = <
-    &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-   &kp SQT  &trans  &trans     &trans  &kp EQUAL  &trans  &trans  &trans  &trans  &trans
- &kp GRAVE  &trans  &trans  &kp QMARK     &trans  &trans  &trans  &trans  &trans  &trans
-                                &to 4      &to 0  &trans  &trans
+ &trans  &trans  &trans  &bootloader  &reset  &kp LBRC  &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
+ &trans  &trans  &trans       &trans  &trans     &kp A  &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
+ &trans  &trans  &trans       &trans  &trans  &kp LBKT  &kp RBKT    &kp LT    &kp GT   &kp BSLH
+                               &to 2   &to 0  &kp BSPC   &kp DEL
             >;
         };
 
         sym_layer {
             bindings = <
-    &trans     &trans   &kp STAR  &kp AMPS    &kp MINUS  &reset  &bootloader  &trans  &trans  &trans
-   &kp DQT  &kp CARET  &kp PRCNT  &kp DLLR  &kp KP_PLUS  &trans       &trans  &trans  &trans  &trans
- &kp TILDE   &kp HASH     &kp AT  &kp EXCL     &kp PIPE  &trans       &trans  &trans  &trans  &trans
-                                    &trans       &trans  &trans       &trans
+   &kp SQT  &kp GRAVE   &kp STAR      &kp AMPS  &kp MINUS  &reset  &bootloader  &trans  &trans  &trans
+   &kp DQT  &kp CARET  &kp PRCNT      &kp DLLR   &kp PLUS  &trans       &trans  &trans  &trans  &trans
+ &kp TILDE   &kp HASH     &kp AT      &kp EXCL   &kp PIPE  &trans       &trans  &trans  &trans  &trans
+                                  &kp QUESTION  &kp EQUAL   &to 0       &tog 3
             >;
         };
 
@@ -111,7 +102,7 @@
    &bt BT_CLR  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
  &bt BT_SEL 0        &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
  &bt BT_SEL 1        &trans  &trans  &trans  &trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans
-                                     &trans  &trans  &trans  &trans
+                                     &trans  &trans   &to 0  &trans
             >;
         };
     };
