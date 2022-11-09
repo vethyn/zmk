@@ -65,6 +65,11 @@
             bindings = <&to 1>;
             key-positions = <31 32>;
         };
+
+        go_to_layer_3 {
+            bindings = <&to 3>;
+            key-positions = <8 9>;
+        };
     };
 
     keymap {
@@ -72,37 +77,37 @@
 
         default_layer {
             bindings = <
-      &kp Q       &kp W         &kp F        &kp P                    &kp B                    &kp J          &kp L         &kp U       &kp Y  &kp SEMICOLON
- &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &kp G             &kp M    &mt RCTRL N  &mt RSHIFT E  &mt RALT I     &mt RGUI O
-      &kp Z       &kp X         &kp C        &kp D                    &kp V                    &kp K          &kp H     &kp COMMA     &kp DOT       &kp FSLH
-                                           &kp TAB  &mt LG(LA(LS(LCTRL))) SPACE               &mt LG(LA(LS(LCTRL))) RETURN  &kp BACKSPACE
+      &kp Q       &kp W         &kp F        &kp P                        &kp B                         &kp J          &kp L         &kp U       &kp Y  &kp SEMICOLON
+ &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T                        &kp G                         &kp M    &mt RCTRL N  &mt RSHIFT E  &mt RALT I     &mt RGUI O
+      &kp Z       &kp X         &kp C        &kp D                        &kp V                         &kp K          &kp H     &kp COMMA     &kp DOT       &kp FSLH
+                                           &kp TAB  &mt LG(LA(LS(LCTRL))) SPACE  &mt LG(LA(LS(LCTRL))) RETURN  &kp BACKSPACE
             >;
         };
 
         nav_layer {
             bindings = <
- &trans  &trans  &trans  &bootloader  &reset    &kp LBRC       &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
- &trans  &trans  &trans       &trans  &trans       &kp A       &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
- &trans  &trans  &trans       &trans  &trans    &kp LBKT       &kp RBKT    &kp LT    &kp GT   &kp BSLH
-                               &to 3   &to 0  &kp RETURN  &kp DELETE
+        &kp C_MUTE  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7        &trans    &kp LBRC    &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
+   &kp C_VOLUME_UP  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4    &kp ESCAPE       &kp A    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
+ &kp C_VOLUME_DOWN  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0    &kp LBKT    &kp RBKT    &kp LT    &kp GT   &kp BSLH
+                                                      &trans         &to 0  &kp RETURN  &kp DELETE
             >;
         };
 
         sym_layer {
             bindings = <
-   &kp SQT  &kp GRAVE   &kp STAR      &kp AMPS  &kp MINUS  &reset  &bootloader  &trans  &trans  &trans
-   &kp DQT  &kp CARET  &kp PRCNT      &kp DLLR   &kp PLUS  &trans       &trans  &trans  &trans  &trans
- &kp TILDE   &kp HASH     &kp AT      &kp EXCL   &kp PIPE  &trans       &trans  &trans  &trans  &trans
-                                  &kp QUESTION  &kp EQUAL   &to 0       &tog 3
+   &kp SQT  &kp GRAVE   &kp STAR      &kp AMPS  &kp MINUS        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp C_PLAY_PAUSE
+   &kp DQT  &kp CARET  &kp PRCNT      &kp DLLR   &kp PLUS    &kp ESCAPE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp C_NEXT
+ &kp TILDE   &kp HASH     &kp AT      &kp EXCL   &kp PIPE  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &kp C_PREV
+                                  &kp QUESTION  &kp EQUAL         &to 0        &trans
             >;
         };
 
         num_layer {
             bindings = <
-   &bt BT_CLR  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
- &bt BT_SEL 0  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
- &bt BT_SEL 1  &bt BT_SEL 4  &trans  &trans  &trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans
-                                     &trans  &to 0   &to 0  &trans
+   &bt BT_CLR  &bt BT_SEL 2  &trans  &bootloader  &reset  &reset  &bootloader  &trans  &trans  &trans
+ &bt BT_SEL 0  &bt BT_SEL 3  &trans       &trans  &trans  &trans       &trans  &trans  &trans  &trans
+ &bt BT_SEL 1  &bt BT_SEL 4  &trans       &trans  &trans  &trans       &trans  &trans  &trans  &trans
+                                          &trans   &to 0   &to 0       &trans
             >;
         };
     };
