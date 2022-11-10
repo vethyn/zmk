@@ -70,6 +70,16 @@
             bindings = <&to 3>;
             key-positions = <8 9>;
         };
+
+        vim_end_of_line {
+            bindings = <&kp DOLLAR>;
+            key-positions = <10 19>;
+        };
+
+        vim_start_of_line {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <14 15>;
+        };
     };
 
     keymap {
