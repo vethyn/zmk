@@ -82,6 +82,7 @@
         go_to_layer_3 {
             bindings = <&to 3>;
             key-positions = <8 9>;
+            layers = <0 1 2>;
         };
 
         vim_end_of_line {
@@ -92,6 +93,12 @@
         vim_start_of_line {
             bindings = <&kp NUMBER_0>;
             key-positions = <14 15>;
+        };
+
+        new_combo {
+            bindings = <&to 0>;
+            key-positions = <9 8>;
+            layers = <3>;
         };
     };
 
@@ -112,7 +119,7 @@
         &kp C_MUTE  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7        &trans       &kp LBRC    &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
  &kp C_VOLUME_DOWN  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4    &kp ESCAPE  &kp SEMICOLON    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
    &kp C_VOLUME_UP  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0       &kp LBKT    &kp RBKT    &kp LT    &kp GT   &kp BSLH
-                                                      &trans         &to 0     &kp RETURN  &kp DELETE
+                                                      &trans        &trans     &kp RETURN  &kp DELETE
             >;
         };
 
@@ -121,7 +128,7 @@
    &kp SQT  &kp GRAVE   &kp STAR      &kp AMPS  &kp MINUS        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp C_PLAY_PAUSE
    &kp DQT  &kp CARET  &kp PRCNT      &kp DLLR   &kp PLUS    &kp ESCAPE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp C_NEXT
  &kp TILDE   &kp HASH     &kp AT      &kp EXCL   &kp PIPE  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &kp C_PREV
-                                  &kp QUESTION  &kp EQUAL         &to 0        &trans
+                                  &kp QUESTION  &kp EQUAL        &trans        &trans
             >;
         };
 
