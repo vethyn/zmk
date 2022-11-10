@@ -85,6 +85,12 @@
             layers = <0 1 2>;
         };
 
+        go_to_layer_0_from_3 {
+            bindings = <&to 0>;
+            key-positions = <9 8>;
+            layers = <3>;
+        };
+
         vim_end_of_line {
             bindings = <&kp DOLLAR>;
             key-positions = <10 19>;
@@ -93,12 +99,6 @@
         vim_start_of_line {
             bindings = <&kp NUMBER_0>;
             key-positions = <14 15>;
-        };
-
-        new_combo {
-            bindings = <&to 0>;
-            key-positions = <9 8>;
-            layers = <3>;
         };
     };
 
