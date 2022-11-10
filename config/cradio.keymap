@@ -96,10 +96,10 @@
 
         nav_layer {
             bindings = <
-        &kp C_MUTE  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7        &trans    &kp LBRC    &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
- &kp C_VOLUME_DOWN  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4    &kp ESCAPE       &kp A    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
-   &kp C_VOLUME_UP  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0    &kp LBKT    &kp RBKT    &kp LT    &kp GT   &kp BSLH
-                                                      &trans         &to 0  &kp RETURN  &kp DELETE
+        &kp C_MUTE  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7        &trans       &kp LBRC    &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
+ &kp C_VOLUME_DOWN  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4    &kp ESCAPE  &kp SEMICOLON    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
+   &kp C_VOLUME_UP  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0       &kp LBKT    &kp RBKT    &kp LT    &kp GT   &kp BSLH
+                                                      &trans         &to 0     &kp RETURN  &kp DELETE
             >;
         };
 
