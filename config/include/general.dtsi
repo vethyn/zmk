@@ -7,6 +7,16 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #define BASE    0
+#define GAME    1
+#define GAMET   2
+#define NAV     3
+#define MOUSE   4
+#define MEDIA   5
+#define NUM     6
+#define SYM     7
+#define FUN     8
+#define NOTHING 9
+#define STENO   10
 
 #define TAPPING_TERM 200
 #define TAPPING_TERM_RING 250
