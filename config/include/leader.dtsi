@@ -27,7 +27,6 @@ leader_sequences {
     LEADER(lastdevice, RT1, &last_dev, BASE)
     LEADER(output, RM4, &out OUT_TOG, BASE)
     LEADER(discord, LB3, &kp LG(N2), BASE)
-    LEADER(delete, LH2, &kp DEL, BASE)
 
     LEADER(btclear, RT4, &bt BT_CLR, NUM)
     LEADER(bt0, LB0, &bt BT_SEL 0, NUM)
