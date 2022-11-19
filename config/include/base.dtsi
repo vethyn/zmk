@@ -1,16 +1,13 @@
 #include "general.dtsi"
 
 / {
-
-    /*
-     * includes
-     */
     #include "autoshift.dtsi"
     #include "behaviors.dtsi"
     
-    /*
-     * Keymaps for all layers
-     */
+    #ifdef CHOSEN
+    CHOSEN
+    #endif
+    
     keymap {
       compatible = "zmk,keymap";
       
@@ -23,7 +20,5 @@
         ASP(Z), ASR(X), AS(C),  AS(D),      AS(V),        AS(K),          AS(H),  AS(CMMA), ASR(DOT), ASP(SLASH),
                                 &baspcdel,  &leaders,     &lt MEDIA RET,  &lt MOUSE TAB
       )
-      
-      
     };
   };
