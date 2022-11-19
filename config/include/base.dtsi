@@ -1,6 +1,17 @@
 #include "general.dtsi"
 
 / {
+
+    /*
+     * includes
+     */
+    #include "autoshift.dtsi"
+    #include "combos.dtsi"
+    #include "leader.dtsi"
+    
+    /*
+     * Keymaps for all layers
+     */
     keymap {
       compatible = "zmk,keymap";
       
