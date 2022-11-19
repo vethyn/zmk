@@ -7,69 +7,53 @@
   ╰───────────╮ 30  31 │ │ 32  33  ╭──────────╯
               ╰────────╯ ╰─────────╯ */
 
-/* 
- * Left top row 
- */
+/* Left top row */
 #define LT0 0
 #define LT1 1
 #define LT2 2
 #define LT3 3
 #define LT4 4
 
-/* 
- * Right top row 
- */
+/* Right top row */
 #define RT0 5
 #define RT1 6
 #define RT2 7
 #define RT3 8
 #define RT4 9
 
-/*
- * Left middle row
- */
+/* Left middle row */
 #define LM0 10
 #define LM1 11
 #define LM2 12
 #define LM3 13 
 #define LM4 14
 
-/*
- * Right middle row
- */
+/* Right middle row */
 #define RM0 15
 #define RM1 16
 #define RM2 17
 #define RM3 18
 #define RM4 19
 
-/*
- * Left bottom row
- */
+/* Left bottom row */
 #define LB0 20
 #define LB1 21
 #define LB2 22
 #define LB3 23
 #define LB4 24
 
-/*
- * Right bottom row
- */
+/* Right bottom row */
 #define RB0 25
 #define RB1 26
 #define RB2 27
 #define RB3 28
 #define RB4 29
 
-/*
- * Left thumb keys
- */
+/* Left thumb keys */
 #define LH0 30
 #define LH1 31
 
-/*
- * Right thumb keys
- */
+/* Right thumb keys */
 #define RH0 32
 #define RH1 33
 
