@@ -64,14 +64,13 @@
 /*
  * Left thumb keys
  */
-#define LT0 30
-#define LT1 31
-
+#define LH0 30
+#define LH1 31
 
 /*
  * Right thumb keys
  */
-#define RT0 32
-#define RT1 33
+#define RH0 32
+#define RH1 33
 
 #include "include/base.dtsi"
