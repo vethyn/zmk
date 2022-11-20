@@ -9,7 +9,7 @@ test: tap_dance_0 {
     label = "TAP_DANCE_0";
     #binding-cells = <0>;
     tapping-term-ms = <200>;
-    bindings = <&kp a>, <&kp LS(a)>, <&kp r>;
+    bindings = <&kp N1>, <&kp N2>, <&kp N3>;
 };
 
 as: auto_shift {
