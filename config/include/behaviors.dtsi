@@ -5,13 +5,13 @@
 #define ALLMODS (MOD_LGUI|MOD_LSFT|MOD_LALT|MOD_LCTL|MOD_RGUI|MOD_RSFT|MOD_RALT|MOD_RCTL)
 
 as: auto_shift {
-    compatible = "zmk,behavior-hold-tab";
+    compatible = "zmk,behavior-tap-dance";
     label = "AUTO_SHIFT";
-    #binding-cells = <2>;
+    #binding-cells = <0>;
     flavor = "tap-preferred";
     tapping-term-ms = <TAPPING_TERM>;
     quick-tap-ms = <QUICK_TAP_TERM>;
-    bindings = <&kp &kp>, <&kp R>;
+    bindings = <&kp &kp>, <&kp LS(&kp)>, <&kp R>;
 };
 
 asr: auto_shift_ring {
