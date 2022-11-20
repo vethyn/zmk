@@ -11,7 +11,7 @@ as: auto_shift {
     flavor = "tap-preferred";
     tapping-term-ms = <TAPPING_TERM>;
     quick-tap-ms = <QUICK_TAP_TERM>;
-    bindings = <&kp &kp>;
+    bindings = <&kp &kp> <&kp R>;
 };
 
 asr: auto_shift_ring {
