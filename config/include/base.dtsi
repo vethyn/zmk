@@ -19,7 +19,7 @@
        */
       LAYER(default, BASE,
         ASP(Q), ASR(W), AS(F),  AS(P),      AS(B),        AS(J),          AS(L),  AS(U),    ASR(Y),   ASP(QUOT),
-        HRA,    HRR,    HRS,    HRT,        AS(G),        AS(M),          HRN,    HRE,      HRI,      HRO,
+        HRA,    HRR,    &test,  HRT,        AS(G),        AS(M),          HRN,    HRE,      HRI,      HRO,
         ASP(Z), ASR(X), AS(C),  AS(D),      AS(V),        AS(K),          AS(H),  AS(CMMA), ASR(DOT), ASP(SLASH),
                                 &bspcdel,  &leaders,     &lt MEDIA RET,  &lt MOUSE TAB
       )
