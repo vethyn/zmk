@@ -1,13 +1,13 @@
 / {
     behaviors {
-        space: tap_dance_space {
+        td_space: tap_dance_space {
           compatible = "zmk,behavior-tap-dance";
           label = "TAP_DANCE_SPACE";
           #binding-cells = <0>;
           tapping-term-ms = <200>;
           bindings = <&kp SPC>, <&kp RC(N)>;
         };
-        return: tap_dance_return {
+        td_return: tap_dance_return {
           compatible = "zmk,behavior-tap-dance";
           label = "TAP_DANCE_SPACE";
           #binding-cells = <0>;
