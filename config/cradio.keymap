@@ -22,6 +22,7 @@
 };
 
 #include "includes/combos.dtsi";
+#include "includes/tap_dance.dtsi";
 
     keymap {
         compatible = "zmk,keymap";
