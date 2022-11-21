@@ -22,7 +22,22 @@
 };
 
 #include "includes/combos.dtsi";
-#include "includes/tap_dance.dtsi";
+behaviors {
+    td_space: tap_dance_space {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TAP_DANCE_SPACE";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp SPC>, <&kp RC(N)>;
+    };
+    td_return: tap_dance_return {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TAP_DANCE_SPACE";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp RET>, <&kp RC(P)>;  
+    };
+};
 
     keymap {
         compatible = "zmk,keymap";
