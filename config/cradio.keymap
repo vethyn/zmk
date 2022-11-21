@@ -123,7 +123,7 @@
         nav_layer {
             bindings = <
      &trans           &kp NUMBER_9             &kp NUMBER_8               &kp NUMBER_7               &kp J       &kp LBRC    &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
- &kp LSHIFT  &mt LEFT_ALT NUMBER_6  &mt LEFT_SHIFT NUMBER_5  &mt LEFT_CONTROL NUMBER_4               &kp K  &kp SEMICOLON    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
+ &kp LS(G)  &mt LEFT_ALT NUMBER_6  &mt LEFT_SHIFT NUMBER_5  &mt LEFT_CONTROL NUMBER_4               &kp K  &kp SEMICOLON    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
       &kp P           &kp NUMBER_3             &kp NUMBER_2               &kp NUMBER_1        &kp NUMBER_0       &kp LBKT    &kp RBKT    &kp LT    &kp GT   &kp BSLH
                                                                     &mt LG(LSHIFT) TAB  &mt LG(LALT) SPACE     &kp RETURN  &kp DELETE
             >;
@@ -132,7 +132,7 @@
         sym_layer {
             bindings = <
    &kp SQT  &kp GRAVE   &kp STAR      &kp AMPS  &kp MINUS         &kp J                &kp NUMBER_7              &kp NUMBER_8            &kp NUMBER_9      &trans
-   &kp DQT  &kp CARET  &kp PRCNT      &kp DLLR   &kp PLUS         &kp K  &mt RIGHT_CONTROL NUMBER_4  &mt RIGHT_SHIFT NUMBER_5  &mt RIGHT_ALT NUMBER_6  &kp LSHIFT
+   &kp DQT  &kp CARET  &kp PRCNT      &kp DLLR   &kp PLUS         &kp K  &mt RIGHT_CONTROL NUMBER_4  &mt RIGHT_SHIFT NUMBER_5  &mt RIGHT_ALT NUMBER_6  &kp LS(G)
  &kp TILDE   &kp HASH     &kp AT      &kp EXCL   &kp PIPE  &kp NUMBER_0                &kp NUMBER_1              &kp NUMBER_2            &kp NUMBER_3       &kp P
                                   &kp QUESTION  &kp EQUAL        &trans                      &trans
             >;
