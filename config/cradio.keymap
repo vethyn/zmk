@@ -22,22 +22,6 @@
 };
 
 #include "includes/combos.dtsi";
-behaviors {
-    tds: tap_dance_space {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TAP_DANCE_SPACE";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&kp G>, <&kp RC(N)>;
-    };
-    tdr: tap_dance_return {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TAP_DANCE_RETURN";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&kp M>, <&kp RC(P)>;  
-    };
-};
 
     keymap {
         compatible = "zmk,keymap";
@@ -45,9 +29,9 @@ behaviors {
         default_layer {
             bindings = <
       &kp Q       &kp W         &kp F        &kp P                        &kp B                         &kp J          &kp L         &kp U       &kp Y  &kp SEMICOLON
- &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T                        &tds                          &tdr    &mt RCTRL N  &mt RSHIFT E  &mt RALT I     &mt RGUI O
+ &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T                        &kp G                         &kp M    &mt RCTRL N  &mt RSHIFT E  &mt RALT I     &mt RGUI O
       &kp Z       &kp X         &kp C        &kp D                        &kp V                         &kp K          &kp H     &kp COMMA     &kp DOT    &key_repeat
-                                           &kp TAB  &mt LG(LA(LS(LCTRL))) SPC  &mt LG(LA(LS(LCTRL))) RET  &kp BACKSPACE
+                                           &mt LG(LA(LS(LCTRL))) TAB  &mt LCTRL SPC  &mt RCTRL RET  &mt LG(LA(LS(LCTRL))) BACKSPACE
             >;
         };
 
