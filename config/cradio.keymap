@@ -14,7 +14,7 @@
 #define NAV 1
 #define SYM 2
 #define NUM 3
-#defube GAM 4
+#define GAM 4
 
 &mt {
     flavor = "tap-preferred";
@@ -29,46 +29,46 @@
 
         default_layer {
             bindings = <
-      &kp Q       &kp W         &kp F        &kp P                        &kp B                         &kp J          &kp L         &kp U       &kp Y  &kp SEMICOLON
- &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T                        &kp G                         &kp M    &mt RCTRL N  &mt RSHIFT E  &mt RALT I     &mt RGUI O
-      &kp Z       &kp X         &kp C        &kp D                        &kp V                         &kp K          &kp H     &kp COMMA     &kp DOT    &key_repeat
-                                           &mt LG(LA(LS(LCTRL))) TAB  &mt LCTRL SPC  &mt RCTRL RET  &mt LG(LA(LS(LCTRL))) BACKSPACE
+                &kp Q       &kp W         &kp F                       &kp P         &kp B                                           &kp J          &kp L        &kp U         &kp Y       &kp SEMICOLON
+                &mt LGUI A  &mt LALT R    &mt LSHIFT S                &mt LCTRL T   &kp G                                           &kp M          &mt RCTRL N  &mt RSHIFT E  &mt RALT I  &mt RGUI O
+                &kp Z       &kp X         &kp C                       &kp D         &kp V                                           &kp K          &kp H        &kp COMMA     &kp DOT     &key_repeat
+                                          &mt LG(LA(LS(LCTRL))) TAB   &mt LCTRL SPC                                                 &mt RCTRL RET  &mt LG(LA(LS(LCTRL))) BACKSPACE
             >;
         };
 
         nav_layer {
             bindings = <
-     &kp P           &kp NUMBER_9             &kp NUMBER_8               &kp NUMBER_7               &kp J       &kp LBRC    &kp RBRC  &kp LPAR  &kp RPAR  &kp COLON
- &kp LS(G)  &mt LEFT_ALT NUMBER_6  &mt LEFT_SHIFT NUMBER_5  &mt LEFT_CONTROL NUMBER_4               &kp K  &kp SEMICOLON    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
-      &key_repeat           &kp NUMBER_3             &kp NUMBER_2               &kp NUMBER_1        &kp NUMBER_0       &kp LBKT    &kp RBKT    &kp LT    &kp GT   &kp BSLH
-                                                                    &mt LG(LSHIFT) TAB  &mt LG(LALT) SPACE     &kp RETURN  &kp DELETE
+                &kp P       &kp NUMBER_9           &kp NUMBER_8             &kp NUMBER_7               &kp J                        &kp LBRC       &kp RBRC    &kp LPAR  &kp RPAR  &kp COLON
+                &kp LS(G)   &mt LEFT_ALT NUMBER_6  &mt LEFT_SHIFT NUMBER_5  &mt LEFT_CONTROL NUMBER_4  &kp K                        &kp SEMICOLON  &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT
+                &key_repeat &kp NUMBER_3           &kp NUMBER_2             &kp NUMBER_1               &kp NUMBER_0                 &kp LBKT       &kp RBKT    &kp LT    &kp GT    &kp BSLH
+                                                                            &mt LG(LSHIFT) TAB         &mt LG(LALT) SPACE           &kp RETURN     &kp DELETE
             >;
         };
 
         sym_layer {
             bindings = <
-   &kp SQT  &kp GRAVE   &kp STAR      &kp AMPS  &kp MINUS         &kp J                &kp NUMBER_7              &kp NUMBER_8            &kp NUMBER_9      &kp P
-   &kp DQT  &kp CARET  &kp PRCNT      &kp DLLR   &kp PLUS         &kp K  &mt RIGHT_CONTROL NUMBER_4  &mt RIGHT_SHIFT NUMBER_5  &mt RIGHT_ALT NUMBER_6  &kp LS(G)
- &kp TILDE   &kp HASH     &kp AT      &kp EXCL   &kp PIPE  &kp NUMBER_0                &kp NUMBER_1              &kp NUMBER_2            &kp NUMBER_3       &key_repeat
-                                  &kp QUESTION  &kp EQUAL        &trans                      &trans
+                &kp SQT     &kp GRAVE  &kp STAR    &kp AMPS      &kp MINUS                                                          &kp J           &kp NUMBER_7                &kp NUMBER_8              &kp NUMBER_9            &kp P
+                &kp DQT     &kp CARET  &kp PRCNT   &kp DLLR      &kp PLUS                                                           &kp K           &mt RIGHT_CONTROL NUMBER_4  &mt RIGHT_SHIFT NUMBER_5  &mt RIGHT_ALT NUMBER_6  &kp LS(G)
+                &kp TILDE   &kp HASH   &kp AT      &kp EXCL      &kp PIPE                                                           &kp NUMBER_0    &kp NUMBER_1                &kp NUMBER_2              &kp NUMBER_3            &key_repeat
+                                                   &kp QUESTION  &kp EQUAL                                                          &trans          &trans
             >;
         };
 
         num_layer {
             bindings = <
-   &bt BT_CLR  &bt BT_SEL 2  &trans  &bootloader  &reset  &reset  &bootloader  &trans  &trans  &trans
- &bt BT_SEL 0  &bt BT_SEL 3  &trans       &trans  &trans  &trans       &trans  &trans  &trans  &trans
- &bt BT_SEL 1  &bt BT_SEL 4  &trans       &trans  &trans  &trans       &trans  &trans  &trans  &trans
-                                          &trans  &trans  &trans       &trans
+                &bt BT_CLR    &bt BT_SEL 2  &trans  &bootloader  &reset                                                             &reset  &bootloader  &trans  &trans  &trans
+                &bt BT_SEL 0  &bt BT_SEL 3  &trans       &trans  &trans                                                             &trans       &trans  &trans  &trans  &trans
+                &bt BT_SEL 1  &bt BT_SEL 4  &trans       &trans  &trans                                                             &trans       &trans  &trans  &trans  &trans
+                                                         &trans  &trans                                                             &trans       &trans
             >;
         };
         
         gam_layer {
-    bindings = <
- &kp F       &kp E  &kp W  &kp R     &kp G      &trans &trans  &trans  &trans  &trans
- &kp LSHIFT  &kp A  &kp S  &kp D     &kp Q      &trans &trans  &trans  &trans  &trans
- &kp LALT    &kp T  &kp Z  &kp C     &kp B      &trans &trans  &trans  &trans  &trans
-                           &kp LCTRL &kp SPC    &trans &trans
+            bindings = <
+                &kp F       &kp E  &kp W  &kp R     &kp G      &trans &trans  &trans  &trans  &trans
+                &kp LSHIFT  &kp A  &kp S  &kp D     &kp Q      &trans &trans  &trans  &trans  &trans
+                &kp LALT    &kp T  &kp Z  &kp C     &kp B      &trans &trans  &trans  &trans  &trans
+                                          &kp LCTRL &kp SPC    &trans &trans
             >;
         };
     };
