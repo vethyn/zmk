@@ -69,6 +69,7 @@
  &kp LSHIFT  &kp A  &kp S  &kp D     &kp Q      &trans &trans  &trans  &trans  &trans
  &kp LALT    &kp T  &kp Z  &kp C     &kp B      &trans &trans  &trans  &trans  &trans
                            &kp LCTRL &kp SPC    &trans &trans
+            >;
         };
     };
 };
