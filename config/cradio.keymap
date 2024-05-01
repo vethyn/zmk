@@ -66,7 +66,7 @@
 &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7       &kp NUMBER_6          &kp NUMBER_5             &kp N0          &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4
 &kp ESCAPE    &kp DOLLAR    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL     &kp DOT        &kp DEL
 &kp PLUS      &kp ASTERISK  &kp PERCENT        &kp LBKT              &kp RIGHT_BRACKET        &kp QUESTION    &kp COLON        &kp SLASH     &kp BACKSLASH  &kp HASH
-                                               &to 2                 &kp SPACE                &kp ENTER       &to 0
+                                               &to 0                 &kp SPACE                &kp ENTER       &to 2
             >;
         };
 
@@ -75,7 +75,7 @@
 &trans               &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &kp NUM_5    &kp LG(LBKT)  &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans
 &kp F1               &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &kp DEL      &kp LEFT      &kp DOWN         &kp UP        &kp RIGHT     &kp ENTER
 &td LG(GRAVE) GRAVE  &mkp RCLK         &mwh SCROLL_UP  &mwh SCROLL_DOWN   &trans       &mkp LCLK     &kp PG_DN        &kp K_VOL_DN  &trans        &trans
-                                                       &to 3              &trans       &sk RALT      &to 0
+                                                       &to 0              &trans       &sk RALT      &to 3
             >;
         };
 
@@ -84,7 +84,7 @@
 &bt BT_CLR    &bt BT_SEL 2  &trans  &trans  &bootloader    &bootloader  &trans  &trans  &trans  &trans
 &bt BT_SEL 0  &bt BT_SEL 3  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans
 &bt BT_SEL 1  &trans        &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans
-                                    &trans  &trans         &trans       &to 0
+                                    &to 0   &trans         &trans       &to 0
             >;
         };
     };
