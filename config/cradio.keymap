@@ -63,10 +63,10 @@
 
         nav_layer {
             bindings = <
-&kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7       &kp NUMBER_6      &kp NUMBER_5         &kp N0          &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
-&kp ESCAPE    &kp DOLLAR    &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL     &kp DOT       &kp DEL
-&to 3         &kp LA(N3)    &kp LA(LBKT)       &kp LA(LS(LBKT))  &kp SINGLE_QUOTE     &kp LBKT        &kp LPRN         &kp RPRN      &kp RBKT      &to 2
-                                               &to 2             &kp SPACE            &kp ENTER       &to 0
+&kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7       &kp NUMBER_6          &kp NUMBER_5             &kp N0          &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4
+&kp ESCAPE    &kp DOLLAR    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL     &kp DOT        &kp DEL
+&kp PLUS      &kp ASTERISK  &kp PERCENT        &kp LBKT              &kp RIGHT_BRACKET        &kp QUESTION    &kp COLON        &kp SLASH     &kp BACKSLASH  &kp HASH
+                                               &to 2                 &kp SPACE                &kp ENTER       &to 0
             >;
         };
 
