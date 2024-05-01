@@ -54,7 +54,7 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F       &kp P                        &kp B        &kp J      &kp L       &kp U            &kp Y         &kp DELETE
+&kp Q  &kp W  &kp F       &kp P                        &kp B        &kp J      &kp L       &kp U            &kp Y         &kp BACKSPACE
 &kp A  &kp R  &hm LALT S  &hm LGUI T                   &kp G        &kp M      &hm RGUI N  &hm RALT E       &mt LALT I    &kp O
 &kp Z  &kp X  &kp C       &kp V                        &kp D        &kp K      &kp H       &td MINUS COMMA  &td EXCL DOT  &td UNDERSCORE SLASH
                           &mt LC(LS(LG(LALT))) LSHIFT  &kp SPACE    &kp ENTER  &to 1
@@ -66,7 +66,7 @@
 &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7       &kp NUMBER_6          &kp NUMBER_5             &kp N0          &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4
 &kp ESCAPE    &kp DOLLAR    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL     &kp DOT        &kp DEL
 &kp PLUS      &kp ASTERISK  &kp PERCENT        &kp LBKT              &kp RIGHT_BRACKET        &kp QUESTION    &kp COLON        &kp SLASH     &kp BACKSLASH  &kp HASH
-                                               &to 0                 &kp SPACE                &kp ENTER       &to 2
+                                               &to 2                 &kp SPACE                &kp ENTER       &to 0
             >;
         };
 
@@ -75,7 +75,7 @@
 &trans               &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &kp NUM_5    &kp LG(LBKT)  &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans
 &kp F1               &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &kp DEL      &kp LEFT      &kp DOWN         &kp UP        &kp RIGHT     &kp ENTER
 &td LG(GRAVE) GRAVE  &mkp RCLK         &mwh SCROLL_UP  &mwh SCROLL_DOWN   &trans       &mkp LCLK     &kp PG_DN        &kp K_VOL_DN  &trans        &trans
-                                                       &to 0              &trans       &sk RALT      &to 3
+                                                       &to 3              &trans       &sk RALT      &to 0
             >;
         };
 
